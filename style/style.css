@@ -1,0 +1,25 @@
+html {
+  background-color: #FA7753;
+  color: white;
+  font-family: proxima-nova, sans-serif;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+img {
+  max-width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /*  mobile */
+  .main {
+    width: 90%;
+  }
+}
